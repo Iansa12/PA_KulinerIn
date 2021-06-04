@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "10805863350",
+    "firebase_url": "https://papb-kulinerin-default-rtdb.firebaseio.com",
+    "project_id": "papb-kulinerin",
+    "storage_bucket": "papb-kulinerin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10805863350:android:78f1c36b0b7388bc3d9717",
+        "android_client_info": {
+          "package_name": "com.papb.pa_kulinerin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10805863350-eah2d41fvp8qbl6i6pqa2grbfv51q0c2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcCGhlmsd-X4eAu-RDd6vBppEh-DCwgTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10805863350-eah2d41fvp8qbl6i6pqa2grbfv51q0c2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

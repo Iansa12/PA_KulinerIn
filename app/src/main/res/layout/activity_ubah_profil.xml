@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDADA"
+    tools:context=".ProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TextInput_HP_Lama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="374dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="22dp"
+            app:layout_constraintBottom_toTopOf="@+id/TextInput_HP_Baru"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_gantiUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username Baru" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TextInput_HP_Baru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TextInput_HP_Lama"
+            tools:ignore="MissingConstraints">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_gantiNoHp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="No. Handphone Baru" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_ganti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="95dp"
+            android:text="Ganti"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TextInput_HP_Baru" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="56dp"
+            android:text="Ganti Profil"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
